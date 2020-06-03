@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        .row{
+            margin:25vh;
+        }
+        h1{
+            margin-bottom:10;
+            margin-top: 0;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col s8 offset-s2">
+            <div id="message-show" class="card-panel hide">
+              <h1></h1>
+              <div>
+              <a href="C:\Users\saili.m\Desktop\First\SecretMessagingApp\Messaging.html">Create your own secret message</a>
+            </div>
+            </div>
+            <div id="text-card" class="card-panel">
+                <form>
+                    <label>Enter a Secret Message</label>
+                    <input id="message-text"/>
+                    <button type="btn">Create</button>
+                </form>
+            </div>
+            <div id="link-card" class="card-panel hide">
+            <div>
+                <label>Share this link with a friend</label>
+                <input id="encrypted-text"/>
+            </div>
+        </div>
+        </div>
+    </div>  
+    <script src="Messaging.js"></script>
+</body>
+</html>
